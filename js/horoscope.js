@@ -8,7 +8,7 @@ function displayTitle() {
 function displayHoroscopeCard(cardNum, img, sign, birthday, horoscope, stars) {
 	var card = document.getElementsByClassName('card')[cardNum];
 
-	card.innerHTML += '<img src="../infoFunction/images/' + img + '">';
+	card.innerHTML += '<img src="../images/' + img + '">';
 	card.innerHTML += '<h3 class="sign">' + sign + '</h3>';
 	card.innerHTML += '<p class="dates">' + birthday + '</p>';
 	card.innerHTML += '<p class="horoscope">' + horoscope + '</p>';
